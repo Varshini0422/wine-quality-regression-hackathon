@@ -1,13 +1,13 @@
 
-# 🍷 Wine Quality Prediction (Regression) – Hackathon Project
+#  Wine Quality Prediction (Regression) – Hackathon Project
 
-## 📌 Overview
+##  Overview
 This project predicts the **quality of red wine** using physicochemical properties through a **Linear Regression** model.  
 It was developed as part of a machine learning hackathon focused on EDA, model building, evaluation, and feature interpretation.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 **Red Wine Quality Dataset**  
 Sources:  
 - UCI Machine Learning Repository  
@@ -17,7 +17,7 @@ The dataset includes chemical features such as acidity, chlorides, density, sulp
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 The main goals of the hackathon were:
 
 1. Load dataset, check shape, and validate missing values  
@@ -29,7 +29,7 @@ The main goals of the hackathon were:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - Python  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
@@ -38,7 +38,7 @@ The main goals of the hackathon were:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 Key insights from EDA:
 
 - **Alcohol** has one of the strongest positive correlations with wine quality  
@@ -48,7 +48,7 @@ Key insights from EDA:
 
 ---
 
-## 🤖 Model Used: Linear Regression
+##  Model Used: Linear Regression
 A simple and interpretable **Linear Regression** model was selected as a baseline.
 
 ### 🔧 Preprocessing steps:
@@ -58,21 +58,21 @@ A simple and interpretable **Linear Regression** model was selected as a baselin
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric | Value |
 |--------|--------|
 | **RMSE** | **0.6870** |
 | **R² Score** | **0.3396** |
 
-### 📝 Interpretation:
+### Interpretation:
 - RMSE of **0.6870** indicates the average error in predicting wine quality  
 - R² of **0.3396** means the model explains ~34% of the variance  
 - Reasonable for a baseline model given the noise and subjectivity of wine scoring  
 
 ---
 
-## ⭐ Top 3 Most Influential Features
+##  Top 3 Most Influential Features
 Based on absolute coefficient values:
 
 1. **Residual sugar — positive effect**  
@@ -83,7 +83,7 @@ These features played the biggest role in determining predicted wine quality.
 
 ---
 
-## 📄 Final Report Summary
+##  Final Report Summary
 The Linear Regression model provides a strong baseline and highlights key chemical properties influencing wine quality.  
 While the predictive performance is moderate, the model is interpretable and meets all hackathon requirements.
 
@@ -95,10 +95,10 @@ Future work may include:
 
 ---
 
-## 📘 Project Structure
+##  Project Structure
 
 ```
-📁 wine-quality-regression
+ wine-quality-regression
 │
 ├── winequality-red-regression.ipynb   # Main Notebook
 ├── README.md                           # Project Documentation
@@ -107,7 +107,7 @@ Future work may include:
 
 ---
 
-## 📬 Author
+##  Author
 **Varshini**  
 MCA Student – Manipal Institute of Technology  
 Skills: Python, Machine Learning, Data Analysis, Web Development  
